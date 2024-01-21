@@ -1,11 +1,28 @@
 package cuentas;
 
+/**
+ * Clase principal tarea 4 ED.
+ * 
+ * @author Carlos Garces
+ */
 public class Main {
 
+    /**
+     * Método principal de la aplicación.
+     * 
+     * @param args
+     */
     public static void main(String[] args) {
         operativa_cuenta(2500);
     }
 
+    /**
+     * Función que realiza la operativa ficticia de una cuenta bancaria.
+     * Crea una cuenta con un determinado saldo inicial, realiza un ingreso,
+     * y una retirada de fondos.
+     * 
+     * @param cantidad float que indica el saldo inicial de la cuenta
+     */
     public static void operativa_cuenta(float cantidad) {
 
         CCuenta cuenta1;
